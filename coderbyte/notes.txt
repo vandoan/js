@@ -1,3 +1,5 @@
+3rd wld chd in 1st wld
+
 JOIN()
 var a = ['Wind', 'Rain', 'Fire'];
 a.join();    // 'Wind,Rain,Fire'
@@ -58,6 +60,13 @@ GETTING MAX
 
 
 
+------ deleting all x letter in an array
+
+var items = ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd'];
+
+while (items.indexOf('c') !== -1) {
+  items.splice(items.indexOf('c'), 1);
+}
 
 
 

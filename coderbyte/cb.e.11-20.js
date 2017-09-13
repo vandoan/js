@@ -175,28 +175,80 @@ function ArithGeo(arr) {
 		}
 
 	}
-	
+
   return -1; 
+         
+}
+//console.log(ArithGeo([2,4,6,8,12]));
+
+
+
+
+
+
+
+
+
+// -------------
+// #16 https://coderbyte.com/editor/Alphabet%20Soup:JavaScript
+
+
+function AlphabetSoup(str) { 
+	arr = str.split("");
+	newArr = arr.sort();
+	newArr = newArr.join("");
+  console.log(newArr);
+  return newArr; 
          
 }
 
 
-
-console.log(ArithGeo([2,4,6,8,12]));
-
-
+// AlphabetSoup("coderbyte");
+   
 
 
 
+// # 17 https://coderbyte.com/editor/Second%20GreatLow:JavaScript
+// Input:1, 42, 42, 180
+// Output:"42 42"
+
+// Input:4, 90
+// Output:"90 4"
 
 
 
+function SecondGreatLow(arr) { 
+	var output = [];
+	var cleanArr = [];
+
+	arr.map(function(x){ // clean up job
+		if(cleanArr.indexOf(x) == -1){
+			cleanArr.push(x);
+		}
+	});
+
+	cleanArr.sort(function(a,b){return a - b});
+	output.push(cleanArr[1]);
+	output.push(cleanArr[cleanArr.length - 2]);
+	output = output.join(" ");
+	console.log(cleanArr);  
+	console.log(output);  
+  	return output;          
+}
 
 
+//SOLUTION
 
+// function SecondGreatLow(arr) { 
+//   var unique = arr.join(' ').match(/(bd+b)(?!.+b1b)/g); 
+//   unique.sort(function(a,b){return a-b});
+//   if(unique.length == 1){
+//     return unique[0] + ' ' + unique[0]; 
+//   }
+//   return unique[1] + ' ' + unique[unique.length -2];
+// }
 
-
-
+SecondGreatLow([-4, -5, 10, 2]);
 
 
 
