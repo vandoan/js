@@ -1,0 +1,114 @@
+regular vim
+// https://scotch.io/tutorials/getting-started-with-vim-an-interactive-guide
+advnaced vim
+// http://learnvimscriptthehardway.stevelosh.com/chapters/52.html
+
+
+
+Michel Bourez. A waxboy Yulex wetsuit shark bomb. The stu duckbill hat shark hold down. Am dreamin of Honolua Bay. Missin da bakes. Kiff? Connor Coffin's such ah surfs up! Hurley! Quicksilver's shorties in mid spring are hella chron. Michel Bourez. Joel Parkinson. Holly-Daze Coffey, so hot. A waxboy Yulex wetsuit shark bomb.
+
+
+
+
+
+
+
+chel Bourez. A waxboy Yulex wetsuit shark bomb. The stu duckbill hat shark hold down. Am dreamin of Honolua Bay. Missin da bakes. Kiff? Connor Coffin's such ah surfs up! Hurley! Quicksilver's shorties in mid spring are hella chron. Michel Bourez. Joel Parkinson. Holly-Daze Coffey, so hot. A waxboy Yulex wetsuit shark bomb.
+
+
+Michel Bourez. A waxboy Yulex wetsuit shark bomb. The stu duckbill hat shark hold down. Am dreamin of Honolua Bay. Missin da bakes. Kiff? Connor Coffin's such ah surfs up! Hurley! Quicksilver's shorties in mid spring are hella chron. Michel Bourez. Joel Parkinson. Holly-Daze Coffey, so hot. A waxboy Yulex wetsuit shark bomb.
+chel Bourez. A waxboy Yulex wetsuit shark bomb. The stu duckbill hat shark hold down. Am dreamin of Honolua Bay. Missin da bakes. Kiff? Connor Coffin's such ah surfs up! Hurley! Quicksilver's shorties in mid spring are hella chron. Michel Bourez. Joel Parkinson. Holly-Daze Coffey, so hot. A waxboy Yulex wetsuit shark bomb.
+
+
+
+
+
+
+
+
+
+test
+1  Move to beginning of document 
+2  Delete a line
+3  Next word and last letter
+4  Next word and first letter
+5  Search for a word
+6  Append
+7  Insert
+8  Delete
+9  Cursor: left, right, up, down
+10 Delete word
+11 Delete line
+12 Delete letter
+13 Delete everything until end of line
+14 Delete 4 words
+15 undo
+16 move to bottom of file
+17 move to the start of the file
+18 put cursor below line
+19 put cursor above line
+20 cut, delete
+21 paste
+22 change
+23 yank
+24 replace 
+25 go to line 22
+26 view current line
+27 search for board before cursor
+28 search for answer after cursor
+29 go to next word in search
+30 go to previous word in search
+31 search for counterpart, like with [,( or {
+32 search and replace, cat to dog
+33 search and replace all for cat to dog 
+
+
+
+
+
+
+
+answer: 
+1 gg
+2 dd
+3 e
+4 w
+5 /
+6 a
+7 i
+8 x
+9 hlkj
+10 dw
+11 dd
+12 x 
+13 d$
+14 d4w
+15 u
+16 G
+17 gg
+18 o
+19 O
+20 d
+21 p 
+22 c
+23 y
+24 r
+25 22 + g
+26 ctrl + g
+27 ?board
+28 /answer
+29 n
+30 N
+31 %
+32 s/cat/dog
+33 %s/cat/dog/g , s/cat/dog (s for in line)
+
+
+
+
+
+
+
+
+
+ 
