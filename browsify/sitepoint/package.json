@@ -1,0 +1,22 @@
+{
+  "name": "sitepoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-js": "browserify js/main.js > js/findem.js -dv",
+    "watch-js": "watchify js/main.js -o js/findem.js -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "gulp": "^3.9.1",
+    "watchify": "^3.9.0"
+  }
+}

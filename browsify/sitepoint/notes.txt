@@ -1,0 +1,22 @@
+tutorial by
+https://www.sitepoint.com/getting-started-browserify/
+
+
+- running command line script
+	- in package json, create "scripts"
+	-  "scripts": {
+		    "build-js": "browserify js/main.js > js/findem.js"
+		  }
+		}
+	- then run, npm run build-js
+
+
+
+
+
+
+
+
+
+
+
