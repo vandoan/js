@@ -1,0 +1,11 @@
+
+
+video 1
+.querySelector()
+.addList()
+audio['data-key="${e.keyCode']
+.classList.add();
+.classList.remove();
+audio.currentTime = 0;
+key.addEventListener("transitionend", removeTransition);
+keys.forEach(key => { }

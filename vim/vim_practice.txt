@@ -61,7 +61,7 @@ test
 31 search for counterpart, like with [,( or {
 32 search and replace, cat to dog
 33 search and replace all for cat to dog 
-
+34 show the number on the left
 
 
 
@@ -102,7 +102,7 @@ answer:
 31 %
 32 s/cat/dog
 33 %s/cat/dog/g , s/cat/dog (s for in line)
-
+34 :set number
 
 
 
