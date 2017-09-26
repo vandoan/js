@@ -1,0 +1,24 @@
+- https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+
+- js's object system is based on prototypes, not classes
+
+- a class is like a blueprint, a description of the object to be created
+  - classes inherit from classes and create subclass relationships, hierachical class taxonomies
+
+- protoypal inheritance - a prototype is a working object instance. objects inherit directly from other objects
+
+  - allow for easy selective inheritances and a flat delegation hierachy
+
+- inheritance is fundamentally a code reuse mechanism, a way for different kind of objects to share code
+
+-
+
+
+
+
+
+
+
+
+
+
