@@ -10,3 +10,16 @@ audio.currentTime = 0;
 document.querySelectorAll('.key');
 key.addEventListener("transitionend", removeTransition);
 keys.forEach(key => { }
+
+
+
+video 2, clock
+style
+  top: 50%
+  transition-timing-function: cubic-bezier(.36,-0.1,0,2.42);
+  transform-origin: 100%;
+  transform: rotate(90deg);
+
+document.querySelector(".second-hand");
+const now = new Date();
+rotate(${secondDegrees}deg)
